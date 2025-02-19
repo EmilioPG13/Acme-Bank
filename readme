@@ -1,0 +1,53 @@
+# Acme Bank: Node.js Security Implementation Project
+
+A secure banking application demonstrating protection against common web vulnerabilities including SQL Injection, XSS, and CSRF attacks.
+
+## Project Overview
+
+This project implements security measures for a credit union web application, focusing on protecting user data and preventing common web attacks.
+
+## Features
+
+- Protection against Cross-Site Scripting (XSS) using helmet
+- SQL Injection prevention through prepared statements
+- CSRF protection with csurf middleware
+- Secure cookie handling
+- Input validation and sanitization using express-validator
+- Path traversal protection
+
+## Prerequisites
+
+- Node.js installed locally
+- Code editor
+- DB Browser for SQLite
+- Web browser
+- Terminal access
+
+## Installation
+
+1. Download and unzip the project files
+2. Navigate to the project directory
+3. Run `node app` to start the server
+4. Access the application at http://localhost:3000
+
+## Default Credentials
+
+Username: admin
+
+Password: C0deC@demy_Rocks!
+
+## Security Features Implementation
+
+- Header security with helmet
+- Input validation on public forum
+- Prepared SQL statements
+- Secure file download system
+- Optional ESLint configuration for code consistency
+
+## Contributing
+
+Feel free to submit issues and enhancement requests.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
